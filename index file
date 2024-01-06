@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styles</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center> 
+    <h1 id="heading">PH SCALE</h1> </center>
+
+    <div> <p class="p-one text-color">#0000ef</p></div>
+        <div> <p class="p-two text-color">#2d2dff</p></div>
+         <div><p class="p-four text-color">#4e4eff</p></div>
+         <div><p class="p-five text-color">#7373ff</p></div>
+       <div><p class="p-six text-color">#9191ff</p></div> 
+       <div><p class="p-seven text-color">#a7a7ff</p></div> 
+        <div><p class="p-eight text-color">#00aa5b</p></div>
+         <div><p class="p-nine text-color">#facbe8</p></div>
+             <div><p class="p-ten text-color">#fda4db</p></div>
+             <div><p class="p-eleven text-color">#ff7acc</p></div>
+            <div> <p class="p-twelve text-color">#fd54bc</p></div>
+             <div><p class="p-thirteen text-color">#fa29aa</p></div>
+             <div class="p-fourteen text-color">#ff009d</div>
+            
+</body>
+</html>
