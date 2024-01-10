@@ -1,26 +1,38 @@
- .p-eight{
-    background-color: #00aa5b;margin:0px;
- }
- .p-nine{
-    background-color:#facbe8;margin:0px;
+body{
+    font-size: 80%;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 0.15em;
+    background-color:#efefef;
 }
- .p-ten{
-   background-color:#fda4db;margin:0px;
+#page{
+    max-width: 940px;
+    min-width: 720px;
+    margin: 10px auto 10px auto;
+    padding: 15px;
+    border: 4px double black;
+    background-color: white;
 }
- .p-eleven{
-    background-color: #ff7acc;margin:0px;
+#logo{
+    width: 150px;
+    margin: 10px auto 25px auto;
+    
 }
- .p-twelve{
-    background-color:#fd54bc;margin:0px;
-}
- .p-thirteen{
-    background-color:#fa29aa;margin:0px;
-}
-.p-fourteen{
-    background-color: #ff009d;margin:0px;
-}
+ul{
+    width: 570px;
+    padding: 15px;
+    margin: 0px auto 0px auto;
+    border-top: 2px solid black ;
+    border-bottom: 1px solid black;
+    text-align: center;
 
-.text-color{
-    color: white;
-    opacity: 0.9;
+}
+li{
+    display: inline;
+    margin: 0px 3px ;
+}
+p{
+    text-align: center;
+    width: 600px;
+    margin: 20px auto 20px auto;
+    font-weight:normal;
 }
