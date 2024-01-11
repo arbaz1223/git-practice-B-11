@@ -1,38 +1,95 @@
-body{
-    font-size: 80%;
-    font-family: 'Courier New', Courier, monospace;
-    letter-spacing: 0.15em;
-    background-color:#efefef;
+div{
+    display: block;
 }
-#page{
-    max-width: 940px;
-    min-width: 720px;
-    margin: 10px auto 10px auto;
-    padding: 15px;
-    border: 4px double black;
-    background-color: white;
-}
-#logo{
-    width: 150px;
-    margin: 10px auto 25px auto;
-    
-}
-ul{
-    width: 570px;
-    padding: 15px;
-    margin: 0px auto 0px auto;
-    border-top: 2px solid black ;
-    border-bottom: 1px solid black;
+h1{
     text-align: center;
+    font-size: 70px;
+    font-style: ;
+}
+h1{
+    display: block;
+    /*font-size:2em */
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.nav{
+    color: azure;
+    font-size: 20px;
+    padding: 25px;
+    background-color:blueviolet;
+    text-decoration: none;
+}
+.tbl{
+    text-align: center;
+    padding: 20px;
+}
+.p{
+    text-align: center;
+    font: 25px;
+}
+.nav a:hover{
+    color: aqua;
+    cursor: pointer;
+}
+ 
+.poem1{
+    font-family: 'Luckiest Guy' ;
+    color: aqua;
 
 }
-li{
-    display: inline;
-    margin: 0px 3px ;
+.poem1:first-letter{
+    color: greenyellow;
+    font-size: 120px;
 }
-p{
-    text-align: center;
-    width: 600px;
-    margin: 20px auto 20px auto;
-    font-weight:normal;
+.para{
+    font-family:'Poppins';
+    font-weight: bold;
+    color:teal;
+}
+.para:first-line{
+    color: brown;
+}
+.poem2{
+    font-family:'Pacifico' ;
+    color: chocolate ;
+}
+.poem2:first-letter{
+    color:yellow ;
+    font-size: 120px ;
+}
+.poem3{
+    font-family:'Satisfy' ;
+    color: rgb(255, 0, 0) ;
+}
+.poem3:first-letter{
+    color:rgb(0, 255, 0) ;
+    font-size: 120px ;
+}
+.poem4{
+    font-family:'Pacifico' ;
+    color: rgb(255,0, 255) ;
+}
+.poem4:first-letter{
+    color:rgb(68, 0, 255) ;
+    font-size: 120px ;
+}
+
+.poem5{
+    font-family:'Pinkchicken' ;
+    color:rgb(0, 255, 42) ;
+}
+.poem5:first-letter{
+    color:rgb(0, 247, 255) ;
+    font-size: 120px ;
+}
+@font-face{
+    font-family: 'Pacifico';
+    src: url(../fonts/Pacifico-Regular.ttf)
+}
+@font-face{
+    font-family: 'Satisfy';
+    src: url(../fonts/Satisfy-Regular.ttf)
 }
