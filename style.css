@@ -1,95 +1,56 @@
-div{
-    display: block;
-}
-h1{
-    text-align: center;
-    font-size: 70px;
-    font-style: ;
-}
-h1{
-    display: block;
-    /*font-size:2em */
-    margin-block-start: 0.67em;
-    margin-block-end: 0.67em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
-}
-.nav{
-    color: azure;
-    font-size: 20px;
-    padding: 25px;
-    background-color:blueviolet;
-    text-decoration: none;
-}
-.tbl{
-    text-align: center;
-    padding: 20px;
-}
-.p{
-    text-align: center;
-    font: 25px;
-}
-.nav a:hover{
-    color: aqua;
-    cursor: pointer;
-}
- 
-.poem1{
-    font-family: 'Luckiest Guy' ;
-    color: aqua;
+ .{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ .container{
+    height: 600px;
+    border: 2px solid red;
+    display: grid;
+    row-gap: 20px;
+    column-gap:5px ;
+    grid-template-columns:200px 200px 200px;
+    /*grid-template-rows: 200px 80px;
+    grid-auto-rows: 150px;*/
+    justify-content: center;
+    /*align-content: center;*/
+    /*align-items: start;*/
+    
+ }
+ .box {
+    border: 2px solid green;
+    padding: 12px ;
 
-}
-.poem1:first-letter{
-    color: greenyellow;
-    font-size: 120px;
-}
-.para{
-    font-family:'Poppins';
-    font-weight: bold;
-    color:teal;
-}
-.para:first-line{
-    color: brown;
-}
-.poem2{
-    font-family:'Pacifico' ;
-    color: chocolate ;
-}
-.poem2:first-letter{
-    color:yellow ;
-    font-size: 120px ;
-}
-.poem3{
-    font-family:'Satisfy' ;
-    color: rgb(255, 0, 0) ;
-}
-.poem3:first-letter{
-    color:rgb(0, 255, 0) ;
-    font-size: 120px ;
-}
-.poem4{
-    font-family:'Pacifico' ;
-    color: rgb(255,0, 255) ;
-}
-.poem4:first-letter{
-    color:rgb(68, 0, 255) ;
-    font-size: 120px ;
+ }
+
+ #box-1{
+    background-color: bisque;
+   /* justify-self:center;
+    align-self: center;*/
+   /* grid-column-start: 1;
+    grid-column-end: 4;*/
+    grid-column: 1/4;
+    grid-row: 4;
 }
 
-.poem5{
-    font-family:'Pinkchicken' ;
-    color:rgb(0, 255, 42) ;
+
+#box-2{
+    background-color: yellowgreen;
+    grid-column: 2/4;
+    grid-row: 1/3;
+} 
+#box-3{
+    background-color: yellowgreen;
+    grid-column:1 ;
+    grid-row: 2/5;
+} 
+#box-4{
+    background-color: yellowgreen;
+    grid-column: 3;
+    grid-row: 3;
 }
-.poem5:first-letter{
-    color:rgb(0, 247, 255) ;
-    font-size: 120px ;
-}
-@font-face{
-    font-family: 'Pacifico';
-    src: url(../fonts/Pacifico-Regular.ttf)
-}
-@font-face{
-    font-family: 'Satisfy';
-    src: url(../fonts/Satisfy-Regular.ttf)
+#box-5{
+    background-color: yellowgreen;
+    grid-column:3  ;
+    grid-row: 4;
 }
